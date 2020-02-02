@@ -1,7 +1,6 @@
 
 
 const EventEmitter = require('events');
-
 class Plant extends EventEmitter{
     constructor(){
         super();
@@ -21,7 +20,7 @@ class Plant extends EventEmitter{
         this.on("water", () => {
             if(this.hasBeenPlanted){
                 this.size ++;
-                console.log("Plant was watered. Plant is now " + this.size + " feet high")
+                this("Plant was watered. Plant is now " + this.size + " feet high")
             }
             else{
                 console.log("Plant the seed yo!")

@@ -1,0 +1,17 @@
+{
+  "name": "learn_oauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "workspace.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-session": "^1.17.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0"
+  }
+}

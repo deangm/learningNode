@@ -1,0 +1,9 @@
+html
+    head
+        title view
+    body
+        div
+            each user in users
+                li
+                    a(href='/view/'+user.username)= user.first
+        include time.pug

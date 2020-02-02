@@ -1,8 +1,4 @@
 
-import fs from "fs";
-
-
-
 switch(process.argv[2]){
     case "odd":
         for(i = 1; i<=10; i++){
@@ -15,6 +11,3 @@ switch(process.argv[2]){
         }
         break;
 }
-   
-
-
